@@ -1,5 +1,8 @@
 # Tabular
 
+[![Language][swift-shield]][swift-url]
+[![check][check-shield]][check-url]
+
 Present data as tabular view.
 
 * **Type:** Collection
@@ -34,6 +37,8 @@ otherwise use a submodule
 git submodule add https://github.com/mesopelagique/form-list-Tabular.git Tabular
 ```
 
+Example in https://mesopelagique@github.com/mesopelagique/Example-Tabular
+
 ## How to use
 
 Drop as first column an id or a the main column for data like a "name".
@@ -44,3 +49,10 @@ Then drop numbers columns.
 
 You could edit the storyboard template to select footer computation.
 By default the value is `sum`.You could add `min`, `max`, `avg`. (String value separated with comma)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[swift-shield]: http://img.shields.io/badge/language-swift-orange.svg?style=flat
+[swift-url]: https://developer.apple.com/swift/
+[check-shield]: https://github.com/mesopelagique/form-list-Tabular/workflows/%E2%9C%85%20check/badge.svg
+[check-url]: https://github.com/mesopelagique/form-list-Tabular/actions?query=workflow%3A%22%E2%9C%85+check%22
