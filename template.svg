@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ios="http://www.4d.com">
+	<title>Simple Collection</title>
+	<defs>
+		<symbol id="cancel">
+			<image x="0" y="0" width="30" height="30" xlink:href="$4DEVAL(tmpl_cancel)"/>
+		</symbol>
+		<text id="cookery" ios:values="f1,f2,f3,f4,f5,f6,f7,f8,f9"/>
+	</defs>
+	<!-- background -->
+	<rect class="container"/>
+	<rect class="bgcontainer"/>
+	<g id="bgcontainer">
+		<!-- f1 -->
+		<g transform="translate(-10,60)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f1.label" class="label" x="37" y="8" width="190" font-weight="bold">Column 1</textArea>
+			<rect id="f1" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[0]"/>
+			<use id="f1.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!-- f2 -->
+		<g transform="translate(0,100)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f2.label" class="label" x="37" y="8" width="190">Column 2</textArea>
+			<rect id="f2" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[1]"/>
+			<use id="f2.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!-- f3 -->
+		<g transform="translate(0,140)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f3.label" class="label" x="37" y="8" width="190">Column 3</textArea>
+			<rect id="f3" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[2]"/>
+			<use id="f3.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f4 -->
+		<g transform="translate(0,180)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f4.label" class="label" x="37" y="8" width="190">Column 4</textArea>
+			<rect id="f4" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[3]"/>
+			<use id="f4.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f5-->
+		<g transform="translate(0,220)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f5.label" class="label" x="37" y="8" width="190">Column 5</textArea>
+			<rect id="f5" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[4]"/>
+			<use id="f5.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f6-->
+		<g transform="translate(0,260)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f6.label" class="label" x="37" y="8" width="190">Column 6</textArea>
+			<rect id="f6" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[5]"/>
+			<use id="f6.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f7-->
+		<g transform="translate(0,300)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f7.label" class="label" x="37" y="8" width="190">Column 7</textArea>
+			<rect id="f7" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[6]"/>
+			<use id="f7.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f8-->
+		<g transform="translate(0,340)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f8.label" class="label" x="37" y="8" width="190">Column 8</textArea>
+			<rect id="f8" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[7]"/>
+			<use id="f8.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+		<!--  f9-->
+		<g transform="translate(0,380)">
+			<rect class="bg field" x="37" y="0" width="190" height="30"/>
+			<textArea id="f9.label" class="label" x="37" y="8" width="190">Column 9</textArea>
+			<rect id="f9" class="droppable field" x="38" y="0" width="190" height="30" stroke-dasharray="5,2" ios:type="-3" ios:bind="fields[8]"/>
+			<use id="f9.cancel" x="199" y="1" xlink:href="#cancel" visibility="hidden"/>
+		</g>
+	</g>
+</svg>
