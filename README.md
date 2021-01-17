@@ -39,7 +39,7 @@ otherwise use a submodule
 git submodule add https://github.com/mesopelagique/form-list-Tabular.git Tabular
 ```
 
-Example in https://mesopelagique@github.com/mesopelagique/Example-Tabular
+Example in https://github.com/mesopelagique/Example-Tabular
 
 ## How to use
 
