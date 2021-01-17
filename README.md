@@ -5,6 +5,8 @@
 
 Present data as tabular view.
 
+![screenshot](https://github.com/mesopelagique/Example-Tabular/raw/master/app.png)
+
 * **Type:** Collection
 
 ## Limitations
@@ -49,6 +51,12 @@ Then drop numbers columns.
 
 You could edit the storyboard template to select footer computation.
 By default the value is `sum`.You could add `min`, `max`, `avg`. (String value separated with comma)
+
+With Xcode
+![storyboard](https://github.com/mesopelagique/Example-Tabular/blob/master/customize.png?raw=true)
+
+or in code
+https://github.com/mesopelagique/form-list-Tabular/blob/master/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.storyboard#L184
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
