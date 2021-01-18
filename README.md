@@ -58,6 +58,17 @@ With Xcode
 or in code
 https://github.com/mesopelagique/form-list-Tabular/blob/master/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.storyboard#L184
 
+### How to cell appareance
+
+Edit storyboard with xcode. 
+
+This is 6 cells to customize separately :
+
+- header : first row, which contains fields labels
+- first column (x2: odd or even row position)
+- from second to N columns (x2: odd or even row position)
+- footer : contains computation such as sum, min, max & avg
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [swift-shield]: http://img.shields.io/badge/language-swift-orange.svg?style=flat
