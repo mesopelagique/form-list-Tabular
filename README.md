@@ -50,7 +50,7 @@ Then drop numbers columns.
 ### How to customize footer
 
 You could edit the storyboard template to select footer computation.
-By default the value is `sum`.You could add `min`, `max`, `avg`. (String value separated with comma)
+By default the value is `sum`. You could remove or add `min`, `max`, `avg`. (String value separated with comma)
 
 With Xcode
 ![storyboard](https://github.com/mesopelagique/Example-Tabular/blob/master/customize.png?raw=true)
@@ -58,7 +58,7 @@ With Xcode
 or in code
 https://github.com/mesopelagique/form-list-Tabular/blob/master/Sources/Forms/Tables/___TABLE___/___TABLE___ListForm.storyboard#L184
 
-### How to cell appareance
+### How to customize cells appareances
 
 Edit storyboard with xcode. 
 
